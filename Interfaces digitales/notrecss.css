@@ -1,0 +1,105 @@
+body{
+	font-family: 'Proza Libre', sans-serif;
+	background-color: #FDF5E6
+}
+
+
+.imglarge{ /* C'est la bannière en haut*/
+	width:60%;
+	height:14em;
+	margin-left: 10%;
+	margin-right: 5%;
+}
+
+.logo{
+	height:17em;
+	width: 21em;
+	margin-top: 0em;
+}
+
+header{
+	display: flex;
+}
+
+.menu{
+	
+	color: #5B3C11;
+	font-size: 20px;
+	width: 18.5em;
+	border-radius: 20px;
+}
+
+
+ul li{
+	background-color: #F4AE15;
+	border-radius: 20px;
+}
+
+a{
+	text-decoration: none;
+}
+a:visited {
+color: #88421D;
+}
+
+div > h1{ /*Titre du dernier article*/
+	text-align: center;
+}
+
+article {
+	color: #88421D;
+	background-color: #EBDCC8;
+	border-radius: 20px;
+	text-align: justify;
+	line-height: 40px;
+	text-indent: 25px;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top:-20%;
+	margin-left: 39.5%;
+	/*margin-top: -85%;*/
+}
+.cote, .bp{
+	display: inline-block;
+}
+
+
+.bp img {
+	padding-left: 15em;
+}
+
+
+footer{
+	color: #88421D;
+	background-color: #EBDCC8;
+	width:38%;
+	margin-top: 25%;	
+	margin-bottom: 10%;
+	margin-left: 60%;
+	padding-bottom: 4%;
+	text-align: center;
+	border-radius: 20px;
+}
+
+aside{
+	margin-top: 0%;
+	margin-right: 60%;
+	vertical-align: top;
+	margin-left: 5%;
+}
+
+aside, footer, article {
+	display: inline-block;
+}
+
+.deuxiemefooter{
+	color: #88421D;
+	background-color: #EBDCC8;
+	width:38%;
+	margin-top: 25%;	
+	margin-bottom: 10%;
+	margin-right: 60%;
+	padding-bottom: 4%;
+	text-align: center;
+	border-radius: 20px;
+}
